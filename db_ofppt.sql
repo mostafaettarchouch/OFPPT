@@ -74,6 +74,6 @@ SELECT s.*,b.bac_nom as bacname ,r.Specialite_nom as Specialitenom  FROM stagiai
 JOIN Specialite r ON s.id_Specialite = r.id_Specialite WHERE email = 'anna.morel@example.com' AND pas = 'pass987';
 UPDATE stagiaire SET nom = 'test', prenom = 'test' WHERE id = 20;
 select * from stagiaire;
-DELETE from stagiaire WHERE id = 
+
 
 
