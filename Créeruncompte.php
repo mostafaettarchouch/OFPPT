@@ -66,7 +66,8 @@ if(isset($_POST["nom"])){
                 <option value="<?= $dataspe->id_Specialite ?>"><?= $dataspe->Specialite_nom ?></option>
                <?php endwhile ?>
             </select><br>
-            <input type="file" value="image" placeholder="image" name="image" required><br>
+            <label for="">image</label>
+            <input type="file" value="image" name="image" required><br>
             <input type="password" placeholder="password" name="pas" required><br>
             <input type="password" placeholder="confirm password" name="conpas"><br>
             <input type="submit" value="S'INSCRIRE" name="submit" required><br>
