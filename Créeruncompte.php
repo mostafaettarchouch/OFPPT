@@ -11,6 +11,7 @@ if(isset($_POST["nom"])){
         $target_file = "imguser/".basename($imagename);
         move_uploaded_file($_FILES["image"]["tmp_name"],$target_file);
     }else{
+        header("Location: Créeruncompte.php");
         exit();
     }
     $image = $target_file;
