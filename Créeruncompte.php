@@ -41,7 +41,7 @@ if(isset($_POST["nom"])){
 <body>
     <section>
         <?php require_once("header.php") ?>
-       <div id="container1">
+        <div id="container1">
         <!-- <div id="logo1"></div> -->
         <h2 id="titr1">Créer un compte</h2>
         <form action="#" method="post" enctype="multipart/form-data">
