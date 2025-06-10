@@ -11,6 +11,4 @@ if(isset($_GET["id"])){
 session_destroy();
 header("Location: seconnecter.php");
 }
-
-
 ?>
